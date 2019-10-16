@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="toDoList.css">
+    <title>Hyper To Do List</title>
+    <link rel = "icon" type = "image/png" href = "./images/favicon-image.png">
+  </head>
+  <body>
+    <div class="header">
+      <h2 style="margin:5px">Hyper To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="addToStorage();" class="addBtn">Add</span>
+    </div>
+    <ul id="myUL">
+        
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll();clearStorage();">Clear Items</button>
+    <script type="text/javascript" src="toDoList.js"></script>
+    <script type="text/javascript" src="localStorage.js"></script>
+  </body>
+</html>
